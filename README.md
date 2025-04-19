@@ -1,4 +1,4 @@
-# 🌟 Stargazer v2.0.3 Installation Guide
+# Stargazer v2.0.3 Installation Guide
 
 This repository provides a comprehensive guide to install [**Stargazer**](https://stargazer.gs.washington.edu/stargazerweb/res/documentation.html), a computational tool for calling star alleles from next-generation sequencing (NGS) data. The guide focuses on installation under **Ubuntu 22.04** or **Windows Subsystem for Linux (WSL)** using **Python 3.8.2**, including required dependencies and fixes for `ModuleNotFoundError`.
 
@@ -19,12 +19,12 @@ This repository provides a comprehensive guide to install [**Stargazer**](https:
 
 ## 📋 Prerequisites
 
-### ✅ System
+### System
 - **Operating System**: Ubuntu 22.04 or WSL (Windows 10/11)
 - **Python**: 3.8.2
 - **Java**: OpenJDK 11 (e.g., 11.0.26)
 
-### 🧱 System Dependencies
+### System Dependencies
 ```bash
 build-essential
 python3-dev
@@ -35,7 +35,7 @@ libssl-dev
 zlib1g-dev
 ```
 
-### 📦 Python Dependencies (exact versions)
+### Python Dependencies (exact versions)
 ```bash
 pysam==0.23.0
 numpy==1.24.4
